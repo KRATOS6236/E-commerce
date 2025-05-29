@@ -1,9 +1,6 @@
 import React from 'react'
 import "./Navbar.css"
 import {Link} from 'react-router-dom'
-import Home from '../../pages/home/Home'
-import Cart from '../../pages/cart/Cart'
-import New from '../../pages/newArrivals/New'
 
 function Navbar() {
   return (
@@ -16,13 +13,18 @@ function Navbar() {
         <h1>SHOP.COM</h1>
       </div>
       <div className="nav-pages">
-        <Link to="/">Shop</Link>
-        <Link to="/login">Login</Link>
-        <Link to="/newArrival">New Arrivals</Link>
-        <Link to="/cart">Cart</Link>
+        <Link to="/" className='nav-link'>Shop</Link>
+        <Link to="/login" className='nav-link'>Login</Link>
+        <Link to="/newArrival" className='nav-link'>New Arrivals</Link>
+        <Link to="/cart" className='nav-link'>Cart</Link>
       </div>
-      <div className="search"></div>
-      <div className='nav-btn'></div>
+      <div className="search">
+        <input type="text" placeholder='Search For Products..' className='search-input' />
+      </div>
+      <div className='nav-btn'>
+        <Link to="/login" className='nav-btn-1'>Sign Up</Link>
+        <Link to="/login" className='nav-btn-2'>Login</Link>
+      </div>
     </div>
     </>
   )
