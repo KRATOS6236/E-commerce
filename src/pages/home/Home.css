@@ -1,0 +1,42 @@
+.hero-container{
+    background-image: url(heroimg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    margin: auto;
+    padding: 80px;
+}
+.hero-container h1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-container p{
+    font-size: 20px;
+}
+.hero-container button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 18px 50px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.hero-container button:hover{
+    background-color: rgb(4, 30, 11);
+    color: rgb(255, 255, 255);
+}
+.hero-row{
+    display: flex;
+    margin-top: 25px;
+}
+.hero-row-1{
+    width: 20%;
+}
+.hero-row-1 h1{
+    font-size: 35px;
+}
+.hero-row-1 p{
+    font-size: 15px;
+    margin-top: -8px;
+}
