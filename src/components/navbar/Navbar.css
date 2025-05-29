@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.top-navbar{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+}
+.top-navbar p{
+    color: white;
+    font-size: 15px;
+}
+.nav-row{
+    border: 2px solid;
+    display: flex;
+    margin: auto;
+    width: 96%;
+    align-items: center;
+    gap: 15px;
+}
+.logo h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.nav-pages{
+    text-decoration: none;
+}
